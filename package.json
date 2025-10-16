@@ -1,0 +1,21 @@
+{
+  "name": "mi-cava-v3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start:server": "node server/index.js",
+    "start:expo": "expo start --web",
+    "dev": "concurrently \"node server/index.js\" \"expo start --web\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "concurrently": "^7.6.0",
+    "expo": "^48.0.0",
+    "react": "18.2.0",
+    "react-native": "0.71.8",
+    "@react-native-async-storage/async-storage": "^1.17.11"
+  }
+}
